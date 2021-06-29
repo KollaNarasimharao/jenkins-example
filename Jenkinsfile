@@ -1,8 +1,6 @@
 pipeline {
     agent any
-    environment {
-        PATH = "D:\apache-maven-3.6.0\bin:$PATH"
-    }
+    
     stages {
         stage ('Compile Stage') {
 
